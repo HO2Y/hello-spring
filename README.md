@@ -7,8 +7,7 @@ hello-spring 프로젝트
 Back-end
 
 Language : Java 11
-Framework : Spring Boot, MyBatis
-Database : MySQL
+Framework : Spring Boot
 Front-end
 
 Language : HTML5, CSS3, JavaScript
