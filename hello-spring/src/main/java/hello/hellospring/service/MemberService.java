@@ -8,8 +8,14 @@ import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
+    //class 에서 ctrl+shift+t를 통해 Test
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository; //ALT + INSERT
+
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+
 
     /**
      *회원 가입
