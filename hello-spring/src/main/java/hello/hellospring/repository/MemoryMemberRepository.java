@@ -9,7 +9,6 @@ import java.util.*;
 
 
 //구현체
-@Repository
 public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
     private static long sequence = 0L;

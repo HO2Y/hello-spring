@@ -9,13 +9,12 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
     //class 에서 ctrl+shift+t를 통해 Test
 
     private final MemberRepository memberRepository; //ALT + INSERT
 
-    @Autowired//여기서는 구현체로 있는 MemoryMemberRepository 를 넣어준다
+    //여기서는 구현체로 있는 MemoryMemberRepository 를 넣어준다
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
